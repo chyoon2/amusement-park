@@ -4,20 +4,37 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/scipts.js"></script>
+    <script src="js/scripts.js"></script>
     <title>INSERT TITLE HERE</title>
   </head>
   <body>
     <div class="container">
       <h1>Fill in the blanks to write your story!</h1>
-      <div>
-        <form id="formOne">
+      <h2>Enter your Height</h2>
+      <div class="container">
+        <form id="form-one">
           <div class="form-group">
-            <label for="person1">A name</label>
-            <input id="person1" class="form-control" type="text">
-            
+            <label for="height-feet">Enter Feet</label>
+            <input id="height-feet" class="form-control" type="text">  
           </div>
-      </div>
+          <div class="form-group">
+            <label for="height-inches">Enter Inches</label>
+            <input id="height-inches" class="form-control" type="text">
+          </div>
+          <div id="too-short">
+            <p>You do not meet the height requirements to ride Wild Thing</p>
+            <p>You do not meet the height requirements to ride Magnum</p>
+          </div>
+          <div id="just-right">
+            <p>You do the height requirements to ride Wild Thing</p>
+            <p>You do the height requirements to ride Magnum</p>
+          </div>
+          <div id="too-tall">
+            <p>You doodoo the height requirements to ride Wild Thing</p>
+            <p>You doodoo the height requirements to ride Magnum</p>
+          </div>
+          
+        </div>
     </div>
   </body>
 </html>

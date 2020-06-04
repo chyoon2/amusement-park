@@ -1,5 +1,16 @@
-$(document).ready(function() {
-  $("#formOne").submit(function() {
+/* #wildThing {
+  display: none;
+}
+#magnum {
+  display:none;
+} */
+#too-short {
+  display: none;
+}
+#just-right {
+  display:none;
+}
+#too-tall {
+  display:none;
+}
 
-  });
-});
